@@ -1,0 +1,43 @@
+
+.nav{
+	margin: 0px;
+	border-radius: 0px;
+
+}
+.container{
+	background-color: transparent;
+}
+
+@media (max-width: 768px) { 
+
+
+}
+
+@media (min-width: 992px) and (max-width: 1170px) { 
+	.head{
+	    padding-bottom: 450px;
+	    background: url("../img/header450.jpg") no-repeat center center fixed; 
+		-webkit-background-size: cover;
+		background-size: cover;
+
+	}
+}
+@media (min-width: 1024px) and (max-width: 1366px) { 
+	.head{
+	    padding-bottom: 450px;
+	    background: url("../img/header1366.jpg") no-repeat center center fixed; 
+		-webkit-background-size: cover;
+		background-size: cover;
+
+	}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1170px) { 
+	.head{
+	    padding-bottom: 400px;
+	    background: url("../img/header.jpg") no-repeat center center fixed; 
+		-webkit-background-size: cover;
+		background-size: cover;
+	}
+ }
