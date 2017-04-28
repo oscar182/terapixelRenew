@@ -2,7 +2,7 @@
 .nav{
 	margin: 0px;
 	border-radius: 0px;
-
+	
 }
 .container{
 	background-color: transparent;
@@ -13,19 +13,19 @@
 
 }
 
-@media (min-width: 992px) and (max-width: 1170px) { 
+@media (min-width: 824px) and (max-width: 1170px) { 
 	.head{
 	    padding-bottom: 450px;
-	    background: url("../img/header450.jpg") no-repeat center center fixed; 
+	    background: url("../img/header450.jpg"); 
 		-webkit-background-size: cover;
 		background-size: cover;
 
 	}
 }
-@media (min-width: 1024px) and (max-width: 1366px) { 
+@media (min-width: 1024px) and (max-width: 1169px) { 
 	.head{
 	    padding-bottom: 450px;
-	    background: url("../img/header1366.jpg") no-repeat center center fixed; 
+	    background: url("../img/header1366.jpg") ; 
 		-webkit-background-size: cover;
 		background-size: cover;
 
@@ -36,7 +36,7 @@
 @media (min-width: 1170px) { 
 	.head{
 	    padding-bottom: 400px;
-	    background: url("../img/header.jpg") no-repeat center center fixed; 
+	    background: url("../img/header.jpg") ; 
 		-webkit-background-size: cover;
 		background-size: cover;
 	}
