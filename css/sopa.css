@@ -2,7 +2,7 @@
 .nav{
 	margin: 0px;
 	border-radius: 0px;
-	
+
 }
 .container{
 	background-color: transparent;
@@ -13,7 +13,7 @@
 
 }
 
-@media (min-width: 824px) and (max-width: 1170px) { 
+@media (min-width: 768px) and (max-width: 1170px) { 
 	.head{
 	    padding-bottom: 450px;
 	    background: url("../img/header450.jpg"); 
