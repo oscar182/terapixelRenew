@@ -1,8 +1,15 @@
-
+@font-face{
+	font-family: tera;
+	src:url(../fonts/tera.ttf);
+}
 .nav{
 	margin: 0px;
 	border-radius: 0px;
 
+}
+.letra{
+	font-family: tera;
+	font-size: 35px;
 }
 .container{
 	background-color: transparent;
@@ -10,7 +17,7 @@
 
 @media (max-width: 768px) { 
 	.img{
-		    padding-bottom: 111px;
+		    padding-bottom: 163px;
 	    background: url("../img/header450.jpg"); 
 		-webkit-background-size: cover;
 		background-size: cover;
